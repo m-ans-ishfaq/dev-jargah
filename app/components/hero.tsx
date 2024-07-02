@@ -1,6 +1,4 @@
 import content from "@/content.json";
-import Logo from "@/public/logo.webp";
-import Image from "next/image";
 import { HeroCard } from "./heroCard";
 
 export function Hero()
