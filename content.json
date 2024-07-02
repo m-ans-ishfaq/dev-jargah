@@ -1,6 +1,212 @@
 {
     "eventDate": "January 06, 2024",
     "eventLocation": "Lahore Garrison University (LGU)",
-    "title": "Tech تہوار - We Celebrate Trending Tech Stacks",
-     
+    "title": "Dev جرگہ.- We Celebrate Trending Tech Stacks",
+    "description": "At Tech جرگہ.edition 5.0, you'll hear the latest industry practice. technical talks and can take part in community-building activities. along with other tech community contributors in Lahore.",
+    "aboutUs": {
+        "title": "A lot more than you expect!",
+        "description": "TechTehwaar is a Community of Leaders who are eager to help students and their communities, lead in their local tech circles, and develop technical and career skills for the future. By joining this community, tech enthusiasts grow their knowledge in a peer-to-peer learning environment and build solutions for local business and their community.",
+        "details": [
+            {
+                "label": "Speakers",
+                "value": "15+"
+            },
+            {
+                "label": "People Attending",
+                "value": "500+"
+            },
+            {
+                "label": "Venue",
+                "value": "LGU"
+            },
+            {
+                "label": "Location",
+                "value": "Lahore"
+            }
+        ]
+    },
+    "eventAgendas": [
+        {
+            "time": "10:00 AM - 10:40 AM",
+            "agenda": "Event Check-In & Registrations"
+        },
+        {
+            "time": "10:00 AM - 10:40 AM",
+            "agenda": "Event Check-In & Registrations"
+        },
+        {
+            "time": "10:00 AM - 10:40 AM",
+            "agenda": "Event Check-In & Registrations"
+        },
+        {
+            "time": "10:00 AM - 10:40 AM",
+            "agenda": "Event Check-In & Registrations"
+        },
+        {
+            "time": "10:00 AM - 10:40 AM",
+            "agenda": "Event Check-In & Registrations"
+        },
+        {
+            "time": "10:00 AM - 10:40 AM",
+            "agenda": "Event Check-In & Registrations"
+        },
+        {
+            "time": "10:00 AM - 10:40 AM",
+            "agenda": "Event Check-In & Registrations"
+        },
+        {
+            "time": "10:00 AM - 10:40 AM",
+            "agenda": "Event Check-In & Registrations"
+        }
+    ],
+    "hosts": [
+        {
+            "avatar": "saad-aslam.webp",
+            "name": "Saad Aslam",
+            "role": "Founder Tech"
+        },
+        {
+            "avatar": "saad-aslam.webp",
+            "name": "Saad Aslam",
+            "role": "Founder Tech"
+        },
+        {
+            "avatar": "saad-aslam.webp",
+            "name": "Saad Aslam",
+            "role": "Founder Tech"
+        },
+        {
+            "avatar": "saad-aslam.webp",
+            "name": "Saad Aslam",
+            "role": "Founder Tech"
+        },
+        {
+            "avatar": "saad-aslam.webp",
+            "name": "Saad Aslam",
+            "role": "Founder Tech"
+        },
+        {
+            "avatar": "saad-aslam.webp",
+            "name": "Saad Aslam",
+            "role": "Founder Tech"
+        },
+        {
+            "avatar": "saad-aslam.webp",
+            "name": "Saad Aslam",
+            "role": "Founder Tech"
+        },
+        {
+            "avatar": "saad-aslam.webp",
+            "name": "Saad Aslam",
+            "role": "Founder Tech"
+        }
+    ],
+    "speakers": [
+        {
+            "avatar": "saad-aslam.webp",
+            "name": "Saad Aslam"
+        },
+        {
+            "avatar": "saad-aslam.webp",
+            "name": "Saad Aslam"
+        },
+        {
+            "avatar": "saad-aslam.webp",
+            "name": "Saad Aslam"
+        },
+        {
+            "avatar": "saad-aslam.webp",
+            "name": "Saad Aslam"
+        },
+        {
+            "avatar": "saad-aslam.webp",
+            "name": "Saad Aslam"
+        },
+        {
+            "avatar": "saad-aslam.webp",
+            "name": "Saad Aslam"
+        },
+        {
+            "avatar": "saad-aslam.webp",
+            "name": "Saad Aslam"
+        },
+        {
+            "avatar": "saad-aslam.webp",
+            "name": "Saad Aslam"
+        },
+        {
+            "avatar": "saad-aslam.webp",
+            "name": "Saad Aslam"
+        },
+        {
+            "avatar": "saad-aslam.webp",
+            "name": "Saad Aslam"
+        }
+    ],
+    "partners": [
+        {
+            "image": "github.webp",
+            "label": "Github"
+        },
+        {
+            "image": "github.webp",
+            "label": "Github"
+        },
+        {
+            "image": "github.webp",
+            "label": "Github"
+        }
+    ],
+    "mentors": [
+        {
+            "avatar": "saad-aslam.webp",
+            "name": "Saad Aslam"
+        },
+        {
+            "avatar": "saad-aslam.webp",
+            "name": "Saad Aslam"
+        },
+        {
+            "avatar": "saad-aslam.webp",
+            "name": "Saad Aslam"
+        },
+        {
+            "avatar": "saad-aslam.webp",
+            "name": "Saad Aslam"
+        },
+        {
+            "avatar": "saad-aslam.webp",
+            "name": "Saad Aslam"
+        }
+    ],
+    "codeOfConduct": [
+        {
+            "title": "Respect and Inclusivity",
+            "description": "Treat all participants with respect, regardless of their race, gender, sexual orientation, disability, age, religion, or any other characteristic."
+        },
+        {
+            "title": "Open to new Ideas",
+            "description": "Create an inclusive and welcoming environment where everyone feels safe to participate and share their ideas."
+        },
+        {
+            "title": "Collaboration and Sharing",
+            "description": "Foster a collaborative environment by encouraging the exchange of ideas, knowledge, and experiences. Respect intellectual property rights and give proper credit for any content, ideas, or materials used or referenced."
+        },
+        {
+            "title": "Pleasent Gathering Environment",
+            "description": "Harassment, including but not limited to offensive comments, verbal or written abuse, intimidation, or any form of unwelcome attention, is not tolerated. Be mindful of your words and actions, and remember that what may be acceptable to you may be offensive to others."
+        },
+        {
+            "title": "Professional Conduct",
+            "description": "Engage in professional and constructive discussions and debates. Avoid personal attacks, insults, or derogatory language. Use appropriate language and content when presenting or participating in sessions."
+        },
+        {
+            "title": "Acknowledging time and effort",
+            "description": "We're respectful of the volunteer efforts that permeate the developer community. We're thoughtful when addressing the efforts of others, keeping in mind that oftentimes the labour was completed simply for the good of the community."
+        }
+    ],
+    "registerCard": {
+        "title": "Join us at the Finest, Gathering, Tech Enthusiastic",
+        "description": "Don't miss this exceptional opportunity to expand your tech horizons and be part of an unparalleled experience."
+    }
 }
