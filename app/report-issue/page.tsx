@@ -12,7 +12,9 @@ export default function Page()
                     <div className="flex flex-col items-start justify-start">
                         <a href="/"><Image alt="Logo of Dev Jargah" loading="lazy" width="130" height="80" decoding="async" data-nimg="1" className="object-scale-down mb-2" src={Logo} style={{ color: "transparent" }} /></a>
                         <h2 className="mt-16 text-lg font-semibold text-gray-900">Report an Issue</h2>
-                        <p className="mt-2 text-sm text-gray-700">Having trouble? No worries! Just submit the form below and we'll be happy to help.</p>
+                        <p className="mt-2 text-sm text-gray-700">
+                            {"Having trouble? No worries! Just submit the form below and we'll be happy to help."}
+                        </p>
                     </div>
                     <div className="mt-10">
                         <div className="mt-6">
