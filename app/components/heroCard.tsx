@@ -3,6 +3,7 @@ import Image from "next/image";
 import Logo from "@/public/logo.webp";
 import content from "@/content.json";
 import { useState } from "react";
+import Link from "next/link";
 
 export function HeroCard()
 {
@@ -215,7 +216,9 @@ export function HeroCard()
                                 <div>
                                 <div className="transition hover:text-zinc-400">Auditorium</div>
                                 </div>
-                                <div className="mt-0.5 text-zinc-700"><a href="https://maps.app.goo.gl/2arEdvAqocP7LJWt5" className="transition hover:text-zinc-400" target="_blank">DHA, LHE</a></div>
+                                <div className="mt-0.5 text-zinc-700">
+                                    <Link href="https://maps.app.goo.gl/2arEdvAqocP7LJWt5" className="transition hover:text-zinc-400" target="_blank">DHA, LHE</Link>
+                                </div>
                             </div>
                             <div className="flex justify-center">
                                 <div className="relative" aria-hidden="true">
