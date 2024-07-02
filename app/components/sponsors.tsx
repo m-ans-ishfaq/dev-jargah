@@ -7,7 +7,7 @@ export function Sponsors()
         <div className="bg-white py-24 sm:py-32">
             <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
                 <div className="flex flex-col items-center max-w-4xl mx-auto">
-                    <h2 className="text-3xl font-bold tracking-tight text-slate-900 sm:text-5xl font-display text-center">Industry &amp; Media Partners</h2>
+                    <h2 className="text-3xl font-bold tracking-tight text-slate-900 sm:text-5xl font-display text-center">Sponsors &amp; Media Partners</h2>
                 </div>
                 <div className="mt-16 -mx-4 grid grid-cols-2 gap-0.5 overflow-hidden sm:mx-0 sm:rounded-2xl md:grid-cols-3">
                     {content.partners.map(({image, label, partnership}, i) => (

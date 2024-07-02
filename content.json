@@ -1,11 +1,14 @@
 {
-    "eventDate": "January 06, 2024",
-    "eventLocation": "Lahore Garrison University (LGU)",
-    "title": "Dev جرگہ.- We Celebrate Trending Tech Stacks",
-    "description": "At Tech جرگہ.edition 5.0, you'll hear the latest industry practice. technical talks and can take part in community-building activities. along with other tech community contributors in Lahore.",
+        
+        "eventDate": "October 2024",
+    "eventLocation": "Quaid e Azam University Islamabad",
+    "title": "Dev جرگہ Embracing Innovation and Community",
+    "description": "Join us at Dev جرگہ for a dynamic day of innovation, knowledge-sharing, and community spirit in islamabad. Immerse yourself in the latest tech trends, engage with industry leaders through insightful talks, and connect with like-minded tech enthusiasts who are shaping the future.",
     "aboutUs": {
-        "title": "A lot more than you expect!",
-        "description": "TechTehwaar is a Community of Leaders who are eager to help students and their communities, lead in their local tech circles, and develop technical and career skills for the future. By joining this community, tech enthusiasts grow their knowledge in a peer-to-peer learning environment and build solutions for local business and their community.",
+        "title": "Discover More with Dev جرگہ",
+        "description": "Dev جرگہ is a dynamic platform empowering students and local tech enthusiasts to excel in their tech domains. Join us to delve into the forefront of technology, glean insights from industry leaders, and collaborate on innovative solutions for local businesses and communities.",
+        
+        
         "details": [
             {
                 "label": "Speakers",
@@ -13,188 +16,112 @@
             },
             {
                 "label": "People Attending",
-                "value": "500+"
+                "value": "400+"
             },
             {
                 "label": "Venue",
-                "value": "LGU"
+                "value": "QUA"
             },
             {
                 "label": "Location",
-                "value": "Lahore"
+                "value": "Islamabad"
             }
         ]
     },
     "eventAgendas": [
         {
-            "time": "10:00 AM - 10:40 AM",
-            "agenda": "Event Check-In & Registrations"
-        },
-        {
-            "time": "10:00 AM - 10:40 AM",
-            "agenda": "Event Check-In & Registrations"
-        },
-        {
-            "time": "10:00 AM - 10:40 AM",
-            "agenda": "Event Check-In & Registrations"
-        },
-        {
-            "time": "10:00 AM - 10:40 AM",
-            "agenda": "Event Check-In & Registrations"
-        },
-        {
-            "time": "10:00 AM - 10:40 AM",
-            "agenda": "Event Check-In & Registrations"
-        },
-        {
-            "time": "10:00 AM - 10:40 AM",
-            "agenda": "Event Check-In & Registrations"
-        },
-        {
-            "time": "10:00 AM - 10:40 AM",
-            "agenda": "Event Check-In & Registrations"
-        },
-        {
-            "time": "10:00 AM - 10:40 AM",
-            "agenda": "Event Check-In & Registrations"
+            "time": "10:00 AM - 03:00 PM",
+            "agenda": "Will Be Shared Soon"
         }
     ],
     "hosts": [
-        {
-            "avatar": "saad-aslam.webp",
-            "name": "Saad Aslam",
-            "role": "Founder Tech"
-        },
-        {
-            "avatar": "saad-aslam.webp",
-            "name": "Saad Aslam",
-            "role": "Founder Tech"
-        },
-        {
-            "avatar": "saad-aslam.webp",
-            "name": "Saad Aslam",
-            "role": "Founder Tech"
-        },
-        {
-            "avatar": "saad-aslam.webp",
-            "name": "Saad Aslam",
-            "role": "Founder Tech"
-        },
-        {
-            "avatar": "saad-aslam.webp",
-            "name": "Saad Aslam",
-            "role": "Founder Tech"
-        },
-        {
-            "avatar": "saad-aslam.webp",
-            "name": "Saad Aslam",
-            "role": "Founder Tech"
-        },
-        {
-            "avatar": "saad-aslam.webp",
-            "name": "Saad Aslam",
-            "role": "Founder Tech"
-        },
-        {
-            "avatar": "saad-aslam.webp",
-            "name": "Saad Aslam",
-            "role": "Founder Tech"
-        }
-    ],
+            {
+                "name": "Muhammad Faizan",
+                "role": "Founder",
+                "avatar": "Faizan.jpeg"
+            },
+            {
+                "name": "Ali Mumtaz",
+                "role": "Co-Founder",
+                "avatar": "Ali.jpeg"
+            },
+            {
+                "name": "CH. Hanzaila",
+                "role": "Advisor",
+                "avatar": "Hanzala.jpeg"
+            },
+            {
+                "name": "Muhammad Anas",
+                "role": "Dev Lead",
+                "avatar": "Anas.jpeg"
+            },
+            {
+                "name": "Waleed Sarfraz",
+                "role": "Design Lead",
+                "avatar": "Waleed.jpeg"
+            },
+            {
+                "name": "Khadija Saeed",
+                "role": "Content Lead",
+                "avatar": "khadija.png"
+            },
+            {
+                "name": "Anza Tamveel",
+                "role": "Marketing Lead",
+                "avatar": "Anza.jpeg"
+            },
+            {
+                "name": "Ahmad Hassan",
+                "role": "Logistic Lead",
+                "avatar": "Ahmed.jpg"
+            },
+            {
+                "name": "Abdullah Bin Aftab",
+                "role": "Postman Expert",
+                "avatar": "Abdullah.jpeg"
+            }
+        ],
     "speakers": [
         {
-            "avatar": "saad-aslam.webp",
-            "name": "Saad Aslam"
-        },
-        {
-            "avatar": "saad-aslam.webp",
-            "name": "Saad Aslam"
-        },
-        {
-            "avatar": "saad-aslam.webp",
-            "name": "Saad Aslam"
-        },
-        {
-            "avatar": "saad-aslam.webp",
-            "name": "Saad Aslam"
-        },
-        {
-            "avatar": "saad-aslam.webp",
-            "name": "Saad Aslam"
-        },
-        {
-            "avatar": "saad-aslam.webp",
-            "name": "Saad Aslam"
-        },
-        {
-            "avatar": "saad-aslam.webp",
-            "name": "Saad Aslam"
-        },
-        {
-            "avatar": "saad-aslam.webp",
-            "name": "Saad Aslam"
-        },
-        {
-            "avatar": "saad-aslam.webp",
-            "name": "Saad Aslam"
-        },
-        {
-            "avatar": "saad-aslam.webp",
-            "name": "Saad Aslam"
+            "avatar": "dum.jpg",
+            "name": "Will be shared shortly"
         }
+        
     ],
     "partners": [
         {
             "image": "github.png",
             "label": "Github",
-            "partnership": "Industry Partner"
+            "partnership": "Sponsor"
         },
         {
-            "image": "github.png",
-            "label": "Github",
-            "partnership": "Industry Partner"
+            "image": "notion.png",
+            "label": "Notion",
+            "partnership": "Sponsor"
         },
         {
-            "image": "github.png",
-            "label": "Github",
-            "partnership": "Industry Partner"
+            "image": "woix.jpeg",
+            "label": "Woix",
+            "partnership": "Sponsor"
         },
         {
-            "image": "github.png",
-            "label": "Github",
-            "partnership": "Industry Partner"
-        },
-        {
-            "image": "github.png",
-            "label": "Github",
-            "partnership": "Industry Partner"
-        },
-        {
-            "image": "github.png",
-            "label": "Github",
+            "image": "hp.png",
+            "label": "Hassan Photography",
             "partnership": "Industry Partner"
         }
     ],
     "mentors": [
         {
-            "avatar": "saad-aslam.webp",
-            "name": "Saad Aslam"
+            "avatar": "pak.jpeg",
+            "name": "MLSA PAKISTAN"
         },
         {
-            "avatar": "saad-aslam.webp",
-            "name": "Saad Aslam"
+            "avatar": "logo.png",
+            "name": "MLSA PUNJAB"
         },
         {
-            "avatar": "saad-aslam.webp",
-            "name": "Saad Aslam"
-        },
-        {
-            "avatar": "saad-aslam.webp",
-            "name": "Saad Aslam"
-        },
-        {
-            "avatar": "saad-aslam.webp",
-            "name": "Saad Aslam"
+            "avatar": "qua.png",
+            "name": "MLSA QUA"
         }
     ],
     "codeOfConduct": [
@@ -224,7 +151,7 @@
         }
     ],
     "registerCard": {
-        "title": "Join us at the Finest, Gathering, Tech Enthusiastic",
-        "description": "Don't miss this exceptional opportunity to expand your tech horizons and be part of an unparalleled experience."
+    "title": "Join Us for an Unforgettable Tech Enthusiast Gathering",
+    "description": "Discover new horizons in technology and become part of a unique and enriching experience."
     }
 }

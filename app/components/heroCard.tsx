@@ -214,10 +214,10 @@ export function HeroCard()
                         <div className="flex items-center justify-between overflow-hidden p-4 font-mono text-[.6875rem]/4 font-bold text-zinc-500 md:p-6">
                             <div className="text-left">
                                 <div>
-                                <div className="transition hover:text-zinc-400">Auditorium</div>
+                                <div className="transition hover:text-zinc-400">QUA</div>
                                 </div>
                                 <div className="mt-0.5 text-zinc-700">
-                                    <Link href="https://maps.app.goo.gl/2arEdvAqocP7LJWt5" className="transition hover:text-zinc-400" target="_blank">DHA, LHE</Link>
+                                    <Link href="https://maps.app.goo.gl/2arEdvAqocP7LJWt5" className="transition hover:text-zinc-400" target="_blank">ISL</Link>
                                 </div>
                             </div>
                             <div className="flex justify-center">
@@ -276,7 +276,7 @@ export function HeroCard()
                             </div>
                             <div className="text-right">
                                 <div>In-person</div>
-                                <div className="mt-0.5 text-zinc-700">500+ Attendees</div>
+                                <div className="mt-0.5 text-zinc-700">400+ Attendees</div>
                             </div>
                         </div>
                     </div>
