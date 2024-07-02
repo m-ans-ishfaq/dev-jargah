@@ -145,16 +145,34 @@
     ],
     "partners": [
         {
-            "image": "github.webp",
-            "label": "Github"
+            "image": "github.png",
+            "label": "Github",
+            "partnership": "Industry Partner"
         },
         {
-            "image": "github.webp",
-            "label": "Github"
+            "image": "github.png",
+            "label": "Github",
+            "partnership": "Industry Partner"
         },
         {
-            "image": "github.webp",
-            "label": "Github"
+            "image": "github.png",
+            "label": "Github",
+            "partnership": "Industry Partner"
+        },
+        {
+            "image": "github.png",
+            "label": "Github",
+            "partnership": "Industry Partner"
+        },
+        {
+            "image": "github.png",
+            "label": "Github",
+            "partnership": "Industry Partner"
+        },
+        {
+            "image": "github.png",
+            "label": "Github",
+            "partnership": "Industry Partner"
         }
     ],
     "mentors": [

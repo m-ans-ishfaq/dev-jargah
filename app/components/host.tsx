@@ -1,5 +1,4 @@
 import content from "@/content.json";
-import Image from "next/image";
 
 export function Host()
 {
@@ -27,8 +26,8 @@ export function Host()
                         {content.hosts.map(({avatar, name, role}, i) => (
                             <div key={i}>
                                 <div className="group relative h-[24rem] sm:h-[17.5rem] transform overflow-hidden rounded-4xl">
-                                    <div className="absolute bottom-6 left-0 right-4 top-0 rounded-4xl border transition duration-300 group-hover:scale-95 xl:right-6 border-blue-300 border-indigo-300 border-sky-300"></div>
-                                    <div className="absolute inset-0 bg-indigo-50" style={{ clipPath: "url(&quot;#:r0:-0&quot;)" }}>
+                                    <div className="absolute bottom-6 left-0 right-4 top-0 rounded-3xl border transition duration-300 group-hover:scale-95 xl:right-6 border-blue-300 border-indigo-300 border-sky-300"></div>
+                                    <div className="absolute inset-0 bg-indigo-50" style={{ clipPath: "url(\"#:r0:-0\")" }}>
                                         <img src={`/hosts/${avatar}`} alt={name} width="600" height="600" decoding="async" data-nimg="1" className="absolute inset-0 h-full w-full object-cover transition duration-300 group-hover:scale-110 object-top" sizes="(min-width: 1280px) 17.5rem, (min-width: 1024px) 25vw, (min-width: 768px) 33vw, (min-width: 640px) 50vw, 100vw" style={{ color: "transparent" }} />
                                     </div>
                                 </div>
