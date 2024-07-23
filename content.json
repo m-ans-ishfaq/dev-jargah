@@ -79,6 +79,11 @@
                 "name": "Abdullah Bin Aftab",
                 "role": "Postman Student Leader",
                 "avatar": "Abdullah.jpeg"
+            },
+            {
+                "name": "Zaineb Idress",
+                "role": "Logistic Lead",
+                "avatar": "Anza.jpeg"
             }
         ],
     "speakers": [
@@ -113,7 +118,7 @@
     "mentors": [
         {
             "avatar": "pak.jpeg",
-            "name": "MLSA PAKISTAN"
+            "name": "MLSA NUML"
         },
         {
             "avatar": "logo.png",
