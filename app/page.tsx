@@ -23,7 +23,7 @@ export default function Home() {
         <Sponsors />
         <Mentors />
         <CodeOfConduct />
-        <RegisterCard />
+        {/*<RegisterCard />*/}
       </main>
       <Footer />
     </>
