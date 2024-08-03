@@ -1,3 +1,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+    .btn {
+        @apply bg-gradient-to-b from-red-500 to-red-700 rounded-md hover:from-red-600 hover:to-red-800 transition-all duration-300;
+    }
+}

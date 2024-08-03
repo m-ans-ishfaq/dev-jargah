@@ -2,11 +2,11 @@
         
         "eventDate": "October 2024",
     "eventLocation": "Quaid e Azam University Islamabad",
-    "title": "Dev جرگہ Embracing Innovation and Community",
-    "description": "Join us at Dev جرگہ for a dynamic day of innovation, knowledge-sharing, and community spirit in islamabad. Immerse yourself in the latest tech trends, engage with industry leaders through insightful talks, and connect with like-minded tech enthusiasts who are shaping the future.",
+    "title": "Embracing Innovation, Collaboration and Elevation",
+    "description": "Join us at Dev جرگہ Pakistan’s Tech Event for an exciting day of innovation, knowledge exchange, and community spirit in Islamabad. Dive into the latest tech trends, interact with industry leaders through insightful discussions, and network with fellow tech enthusiasts shaping the future.",
     "aboutUs": {
-        "title": "Discover More with Dev جرگہ",
-        "description": "Dev جرگہ is a dynamic platform empowering students and local tech enthusiasts to excel in their tech domains. Join us to delve into the forefront of technology, glean insights from industry leaders, and collaborate on innovative solutions for local businesses and communities.",
+        "title": "About Dev جرگہ",
+        "description": "We are a dynamic platform that empowers students and local tech enthusiasts to thrive in their respective fields. Join us to explore cutting-edge technology, gain insights from industry leaders, and collaborate on innovative solutions for local businesses and communities.",
         
         
         "details": [
@@ -15,7 +15,7 @@
                 "value": "15+"
             },
             {
-                "label": "People Attending",
+                "label": "Attendees",
                 "value": "400+"
             },
             {
@@ -24,7 +24,7 @@
             },
             {
                 "label": "Location",
-                "value": "Islamabad"
+                "value": "ISB"
             }
         ]
     },

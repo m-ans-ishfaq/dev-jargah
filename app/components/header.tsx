@@ -1,29 +1,52 @@
-import Logo from "@/public/logo.webp";
-import Image from "next/image";
 import content from "@/content.json";
+import Image from "next/image";
+import { Logo } from "../assets/images";
 import Link from "next/link";
 
-export function Header() {
+export function Header({ transparent = false }: { transparent?: boolean})
+{
+    const HEADER_LINKS = [
+        {
+          href: '#',
+          label: "Event"
+        },
+        {
+          href: '#',
+          label: "Hosts"
+        },
+        {
+          href: '#',
+          label: "Sponsors"
+        },
+        {
+          href: '#',
+          label: "Speakers"
+        }
+      ];
+
     return (
-        <header className="relative z-50 pb-11 lg:pt-11">
-            <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 flex flex-wrap items-center justify-center sm:justify-between lg:flex-nowrap">
-                <div className="mt-10 lg:mt-0 lg:grow lg:basis-0">
-                    <Image loading="lazy" width="130" height="80" decoding="async" data-nimg="1" className="object-scale-down" src={Logo} alt="Logo" style={{ color: 'transparent' }} />
+        <header className={`relative z-20 text-white ${transparent ? '' : 'bg-black'} first:px-4 py-4 flex justify-center`}>
+            <div className="flex justify-between items-center container px-0">
+                {/* Right Side */}
+                <div className="flex flex-col">
+                    <Image src={Logo} alt="Dev Jirga Logo" className="w-32" />
+                    <p className="hidden lg:flex font-medium">
+                        Innovate, Collaborate, Elevate
+                    </p>
                 </div>
-                <div className="order-first -mx-4 flex flex-auto basis-full overflow-x-auto whitespace-nowrap border-b border-brand-primary-600 py-4 font-mono text-sm text-brand-primary-600 sm:-mx-6 lg:order-none lg:mx-0 lg:basis-auto lg:border-0 lg:py-0">
-                    <div className="mx-auto flex items-center gap-4 px-4">
-                        <p>
-                            <time dateTime="2022-04-04"></time>
-                            <time dateTime="2022-04-06">{content.eventDate}</time>
-                        </p>
-                        <svg aria-hidden="true" viewBox="0 0 6 6" className="h-1.5 w-1.5 overflow-visible fill-current stroke-current"><path d="M3 0L6 3L3 6L0 3Z" stroke-width="2" stroke-linejoin="round"></path></svg>
-                        <p className="hidden sm:inline-flex">
-                            {content.eventLocation}
-                        </p>
-                    </div>
+                {/* Left Side */}
+                <div className="flex flex-col gap-1 items-end justify-end">
+                    <nav className="flex gap-4">
+                        {HEADER_LINKS.map(({href, label}, i) => (
+                            <Link className="rounded-md hover:btn py-1 px-4" key={i} {...{ href }}>
+                                {label}
+                            </Link>
+                        ))}
+                    </nav>
+                    <p className="pr-4">
+                        {content.eventDate} ✦  {content.eventLocation}
+                    </p>
                 </div>
-                 
-                
             </div>
         </header>
     )

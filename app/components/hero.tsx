@@ -1,45 +1,72 @@
-import content from "@/content.json";
-import { HeroCard } from "./heroCard";
-import Link from "next/link";
+import Image from "next/image";
+import { HeroBg } from "../assets/images";
+import { Header } from "./Header";
+import { content } from "../assets/data";
+import { FaLocationArrow, FaRegClock } from "react-icons/fa";
 
-export function Hero()
-{
+export function Hero() {
     return (
-        <div className="relative isolate">
-            <svg className="absolute inset-x-0 top-0 -z-10 h-[64rem] w-full stroke-slate-200 [mask-image:radial-gradient(40rem_40rem_at_center,white,transparent)]" aria-hidden="true">
-                <defs>
-                    <pattern id="1f932ae7-37de-4c0a-a8b0-a6e3b4d44b84" width="200" height="200" x="50%" y="-1" patternUnits="userSpaceOnUse">
-                        <path d="M.5 200V.5H200" fill="none"></path>
-                    </pattern>
-                </defs>
-                <svg x="50%" y="-1" className="overflow-visible fill-slate-50">
-                    <path d="M-200 0h201v201h-201Z M600 0h201v201h-201Z M-400 600h201v201h-201Z M200 800h201v201h-201Z" stroke-width="0"></path>
-                </svg>
-                <rect width="100%" height="100%" stroke-width="0" fill="url(#1f932ae7-37de-4c0a-a8b0-a6e3b4d44b84)"></rect>
-            </svg>
-            <div className="absolute left-1/2 right-0 top-0 -z-10 -ml-24 transform-gpu overflow-hidden blur-3xl lg:ml-24 xl:ml-48" aria-hidden="true">
-                <div className="aspect-[801/1036] w-[50.0625rem] bg-gradient-to-tr from-[#ff80b5] to-[#9089fc] opacity-30" style={{ clipPath : "polygon(63.1% 29.5%, 100% 17.1%, 76.6% 3%, 48.4% 0%, 44.6% 4.7%, 54.5% 25.3%, 59.8% 49%, 55.2% 57.8%, 44.4% 57.2%, 27.8% 47.9%, 35.1% 81.5%, 0% 97.7%, 39.2% 100%, 35.2% 81.4%, 97.2% 52.8%, 63.1% 29.5%)" }}></div>
-            </div>
-            <div className="overflow-hidden">
-                <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-20 md:py-24 lg:pt-20 lg:pb-32">
-                    <div className="grid lg:grid-cols-2 gap-12 items-center  mx-auto  max-w-2xl lg:max-w-none lg:mx-0">
-                        <div>
-                        <h1 className="text-4xl font-bold tracking-tight text-slate-900 sm:text-6xl font-display">
-                            {content.title}
-                        </h1>
-                        <p className="mt-6 font-display text-2xl tracking-tight text-slate-700">
-                            {content.description}
-                        </p>
-                        <div className="mt-8">
-                           
+        <section className="w-full overflow-x-hidden relative">
+            <Image src={HeroBg} alt="" className="absolute w-full h-full top-0 left-0 z-0 object-cover" />
+            <div className="absolute w-full h-full top-0 left-0 z-[1] bg-black bg-opacity-50 object-cover" />
+            {/* Circles */}
+            <div className="absolute -left-40 top-20 w-80 h-96 rounded-full z-[2] bg-gradient-radial from-[#FC343150] from-5% to-75% to-[#FC343100] opacity-50" />
+            <div className="absolute -right-40 top-60 w-80 h-96 rounded-full z-[2] bg-gradient-radial from-[#FC343150] from-5% to-75% to-[#FC343100] opacity-50" />
+            {/* Content */}
+            <div className="">
+                <Header transparent />
+                <div className="px-4 flex flex-col items-center">
+                    {/* Main Wrapper */}
+                    <div className="text-center max-w-5xl text-white relative z-[3] pt-40 pb-8 flex flex-col gap-4 items-center justify-center">
+                        <div className="space-y-2">
+                            <h1 className="text-3xl font-bold">
+                                {content.title}
+                            </h1>
+                            <p className="text-neutral-300 text-lg">
+                                {content.description}
+                            </p>
                         </div>
+                        <div className="flex justify-center">
+                            <div className="grid grid-cols-2 gap-4">
+                                <button className="text-lg font-medium py-3 px-6 btn">
+                                    Register Now
+                                </button>
+                                <button className="text-lg font-medium py-3 px-6 btn">
+                                    Become a Sponsor
+                                </button>
+                            </div>
                         </div>
-                        <div className="">
-                        <HeroCard />
+                        <div className="mt-16 w-full max-w-5xl py-6 bg-black bg-opacity-50 backdrop-blur-sm  rounded-md border-neutral-600 border flex flex-col gap-2 items-start px-6 text-start">
+                            <h3 className="text-xl">
+                                {content.aboutUs.title}
+                            </h3>
+                            <p className="text-neutral-300">
+                                {content.aboutUs.description}
+                            </p>
+                            <div className="mt-2 w-full flex  justify-between">
+                                {/* Left */}
+                                <div className="flex gap-6">
+                                    <div className="flex gap-2 items-center">
+                                        <FaRegClock />
+                                        <span>{content.eventDate} 10:00 AM</span>
+                                    </div>
+                                    <div className="flex gap-2 items-center">
+                                        <FaLocationArrow />
+                                        <span>{content.eventLocation}</span>
+                                    </div>
+                                </div>
+                                {/* Right */}
+                                <div className="">
+                                    <button className="btn py-2 px-4">
+                                        View Speakers
+                                    </button>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
+                <div className="h-20 bottom-0 bg-red-700 w-full absolute z-[2]" />
             </div>
-    </div>
+        </section>
     )
 }
