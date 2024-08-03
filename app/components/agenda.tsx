@@ -12,7 +12,7 @@ export function Agenda()
                 Discover the exciting lineup in our Event Agenda, packed with sessions, talks, and activities for Dev جرگہ.
                 </p>
             </div>
-            <div className="w-full container grid gap-6 grid-cols-4 xl:grid-cols-5">
+            <div className="w-full container grid gap-6 grid-cols-1 sm:grid-cols-2 lg:grid-cols-4">
                 {content.eventAgendas.map(({agenda, time}, i) => (
                     <div key={i} className="flex flex-col gap-4 group cursor-pointer">
                         <div className="text-start flex">

@@ -26,11 +26,11 @@ export function Header({ transparent = false }: { transparent?: boolean})
 
     return (
         <header className={`relative z-20 text-white ${transparent ? '' : 'bg-black'} first:px-4 py-4 flex justify-center`}>
-            <div className="flex justify-between items-center container px-0">
+            <div className="flex flex-wrap gap-4 justify-between items-center container px-0">
                 {/* Right Side */}
                 <div className="flex flex-col">
                     <Image src={Logo} alt="Dev Jirga Logo" className="w-32" />
-                    <p className="hidden lg:flex font-medium">
+                    <p className="hidden md:flex font-medium">
                         Innovate, Collaborate, Elevate
                     </p>
                 </div>
@@ -38,12 +38,12 @@ export function Header({ transparent = false }: { transparent?: boolean})
                 <div className="flex flex-col gap-1 items-end justify-end">
                     <nav className="flex gap-4">
                         {HEADER_LINKS.map(({href, label}, i) => (
-                            <Link className="rounded-md hover:btn py-1 px-4" key={i} {...{ href }}>
+                            <Link className="rounded-md sm:hover:btn sm:py-1 sm:px-4" key={i} {...{ href }}>
                                 {label}
                             </Link>
                         ))}
                     </nav>
-                    <p className="pr-4">
+                    <p className="hidden sm:flex pr-4">
                         {content.eventDate} ✦  {content.eventLocation}
                     </p>
                 </div>

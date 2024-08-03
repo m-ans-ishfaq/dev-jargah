@@ -13,10 +13,10 @@ export function Hosts()
                     Meet the visionary organizers and hosts driving Dev جرگہ's success and fostering a vibrant tech community.
                 </p>
             </div>
-            <div className="w-full container grid gap-6 grid-cols-4 xl:grid-cols-5">
+            <div className="w-full container grid gap-6 grid-cols-1 sm:grid-cols-2 lg:grid-cols-4">
                 {content.hosts.map(({name, role, avatar}, i) => (
                     <div key={i} className="flex flex-col gap-4">
-                        <img src={"/hosts/" + avatar} alt={name} className="h-60 w-full object-cover" />
+                        <img src={"/hosts/" + avatar} alt={name} className="h-80 sm:h-60 xl:h-80 w-full object-cover" />
                         <div className="text-start flex gap-4">
                             <div className="w-2 bg-red-600 h-full" />
                             <div>

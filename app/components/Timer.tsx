@@ -44,7 +44,7 @@ function getTimeRemaining(targetDate: Date): TimeRemainingInterface {
 
 const CountCard = ({number, label}:{number:number; label:string;}) => {
     return (
-        <div className="w-24 md:w-32 bg-gradient-to-b from-red-600 to-red-800 rounded-lg py-8 flex flex-col items-center border border-red-400">
+        <div className="sm:max-w-28 w-full bg-gradient-to-b from-red-600 to-red-800 rounded-lg sm:py-8 flex sm:flex-col items-center border border-red-400">
             <span className="text-white font-press-start text-2xl md:text-4xl">{number < 10 ? '0' + number : number}</span>
             <span className="text-neutral-200">{label}</span>
         </div>
@@ -61,7 +61,7 @@ const TimeCounter = ({ targetDate }: { targetDate: Date }) => {
     }, []);
 
     return (
-        <div className="flex flex-wrap justify-center gap-4">
+        <div className="w-full justify-center items-center flex flex-col sm:flex-row gap-4">
             <CountCard label="weeks" number={timeLeft?.weeks ?? 0} />
             <CountCard label="days" number={timeLeft?.days ?? 0} />
             <CountCard label="hours" number={timeLeft?.hours ?? 0} />
