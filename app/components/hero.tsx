@@ -1,6 +1,6 @@
 import Image from "next/image";
 import { HeroBg } from "../assets/images";
-import { Header } from "./Header";
+import { Header } from "./header";
 import { content } from "../assets/data";
 import { FaLocationArrow, FaRegClock } from "react-icons/fa";
 
