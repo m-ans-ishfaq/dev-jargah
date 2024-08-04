@@ -26,7 +26,7 @@ export function Hero() {
                                 {content.description}
                             </p>
                         </div>
-                        <div className="flex justify-center">
+                         {/* <div className="flex justify-center">
                             <div className="grid grid-cols-2 gap-4">
                                 <button className="text-sm sm:text-lg font-medium py-3 px-6 btn">
                                     Register Now
@@ -34,7 +34,9 @@ export function Hero() {
                                 <button className="text-sm sm:text-lg font-medium py-3 px-6 btn">
                                     Become a Sponsor
                                 </button>
+                            
                             </div>
+                            */}
                         </div>
                         <div className="">
                             <div className="mt-16 w-full max-w-5xl py-6 bg-black bg-opacity-50 backdrop-blur-sm  rounded-md border-neutral-600 border flex flex-col gap-2 items-start px-6 text-start">
