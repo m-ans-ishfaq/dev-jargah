@@ -1,5 +1,5 @@
-import { Agenda } from "./components/Agenda";
-import { Footer } from "./components/Footer";
+import { Agenda } from "./components/agenda";
+import { Footer } from "./components/footer";
 import { Hero } from "./components/Hero";
 import { Hosts } from "./components/Hosts";
 import { QUA } from "./components/QUA";
@@ -10,11 +10,12 @@ export default function Home() {
   
   return (
     <>
-      
+      <Hero />
       <QUA />
       <Agenda />
       <Hosts />
       <SponsorsAndOrganizers />
+      <Speakers />
       <Footer/>
     </>
   );
