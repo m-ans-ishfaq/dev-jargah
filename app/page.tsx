@@ -10,13 +10,10 @@ export default function Home() {
   
   return (
     <>
-      <Hero />
+      
       <QUA />
-      <Agenda />
       <Hosts />
       <SponsorsAndOrganizers />
-      <Speakers />
-      <Footer/>
     </>
   );
 }
