@@ -15,17 +15,15 @@ function getTimeRemaining(targetDate: Date): TimeRemainingInterface {
     const timeRemaining = targetDate.getTime() - now.getTime() + (dubaiTimezoneOffset * 60 * 1000);
   
     if (timeRemaining <= 0) {
-      // The target date has already passed
-      return {
-        weeks: 0,
-        days: 0,
-        hours: 0,
-        minutes: 0,
-        seconds: 0
-      };
+        return {
+            weeks: 0,
+            days: 0,
+            hours: 0,
+            minutes: 0,
+            seconds: 0
+        };
     }
   
-    // Calculate weeks, days, hours, minutes, and seconds
     const weeks = Math.floor(timeRemaining / (1000 * 60 * 60 * 24 * 7));
     const days = Math.floor((timeRemaining % (1000 * 60 * 60 * 24 * 7)) / (1000 * 60 * 60 * 24));
     const hours = Math.floor((timeRemaining % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
@@ -33,16 +31,15 @@ function getTimeRemaining(targetDate: Date): TimeRemainingInterface {
     const seconds = Math.floor((timeRemaining % (1000 * 60)) / 1000);
   
     return {
-      weeks,
-      days,
-      hours,
-      minutes,
-      seconds
+        weeks,
+        days,
+        hours,
+        minutes,
+        seconds
     };
-  }
-  
+}
 
-const CountCard = ({number, label}:{number:number; label:string;}) => {
+const CountCard = ({ number, label }: { number: number; label: string; }) => {
     return (
         <div className="sm:max-w-28 w-full bg-gradient-to-b from-red-600 to-red-800 rounded-lg sm:py-8 flex sm:flex-col items-center border border-red-400">
             <span className="text-white font-press-start text-2xl md:text-4xl">{number < 10 ? '0' + number : number}</span>
@@ -52,13 +49,16 @@ const CountCard = ({number, label}:{number:number; label:string;}) => {
 }
 
 const TimeCounter = ({ targetDate }: { targetDate: Date }) => {
-    const [timeLeft, setTimeLeft] = useState<TimeRemainingInterface>();
+    const [timeLeft, setTimeLeft] = useState<TimeRemainingInterface>(getTimeRemaining(targetDate));
 
     useEffect(() => {
-        setInterval(() => {
+        const intervalId = setInterval(() => {
             setTimeLeft(getTimeRemaining(targetDate));
         }, 1000);
-    }, []);
+
+        // Clear interval on component unmount
+        return () => clearInterval(intervalId);
+    }, [targetDate]); // Add targetDate as a dependency
 
     return (
         <div className="w-full justify-center items-center flex flex-col sm:flex-row gap-4">
@@ -71,14 +71,13 @@ const TimeCounter = ({ targetDate }: { targetDate: Date }) => {
     )
 }
 
-export function Timer({ targetDate }: { targetDate: Date })
-{
+export function Timer({ targetDate }: { targetDate: Date }) {
     return (
         <div className="bg-black px-8 bg-opacity-60 backdrop-blur-sm w-full rounded-md py-8 text-white flex flex-col items-center gap-4 text-center">
             <h3 className="text-xl tracking-wider">
                 TIME REMAINING IN NEXT BIG EVENT
             </h3>
-            <TimeCounter {...{targetDate}} />
+            <TimeCounter targetDate={targetDate} />
         </div>
     )
 }
