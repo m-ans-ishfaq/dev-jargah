@@ -37,7 +37,7 @@ export function Hero() {
                             
                             </div>
                             */}
-                        </div>
+                    </div>
                         <div className="">
                             <div className="mt-16 w-full max-w-5xl py-6 bg-black bg-opacity-50 backdrop-blur-sm  rounded-md border-neutral-600 border flex flex-col gap-2 items-start px-6 text-start">
                                 <h3 className="text-xl">
