@@ -71,13 +71,26 @@ const TimeCounter = ({ targetDate }: { targetDate: Date }) => {
     )
 }
 
-export function Timer({ targetDate }: { targetDate: Date }) {
+export function Timer() {
+
+    const [targetDate, setTargetDate] = useState<Date|undefined>(undefined);
+
+    useEffect(() => {
+        let tgDate = new Date('2024-10-01T05:00:00');
+        tgDate.setUTCHours(0, 0, 0, 0);
+        tgDate.setMinutes(tgDate.getMinutes() - tgDate.getTimezoneOffset() + 4 * 60);
+
+        setTargetDate(tgDate);
+    }, []);
+
+    if (!targetDate) return "Loading...";
+
     return (
         <div className="bg-black px-8 bg-opacity-60 backdrop-blur-sm w-full rounded-md py-8 text-white flex flex-col items-center gap-4 text-center">
             <h3 className="text-xl tracking-wider">
                 TIME REMAINING IN NEXT BIG EVENT
             </h3>
-            <TimeCounter targetDate={targetDate} />
+            <TimeCounter targetDate={targetDate!} />
         </div>
     )
 }
