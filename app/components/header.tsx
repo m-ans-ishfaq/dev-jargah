@@ -7,19 +7,19 @@ export function Header({ transparent = false }: { transparent?: boolean})
 {
     const HEADER_LINKS = [
         {
-          href: '#event',
+          href: 'event',
           label: "Event"
         },
         {
-          href: '#host',
+          href: 'hosts',
           label: "Hosts"
         },
         {
-          href: '#sponsor',
+          href: 'sponsors',
           label: "Sponsors"
         },
         {
-          href: '#speaker',
+          href: 'speakers',
           label: "Speakers"
         }
       ];
