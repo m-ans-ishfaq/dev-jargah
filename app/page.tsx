@@ -12,8 +12,10 @@ export default function Home() {
     <>
       
       <QUA />
+      <Agenda />
       <Hosts />
       <SponsorsAndOrganizers />
+      <Footer/>
     </>
   );
 }
