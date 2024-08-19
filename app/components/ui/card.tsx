@@ -1,0 +1,51 @@
+import Image from "next/image";
+
+export function CardClassic({
+  title,
+  content,
+}: {
+  title: string;
+  content: string;
+}) {
+  return (
+    <div className="flex flex-col gap-4 group cursor-pointer">
+      <div className="text-start flex">
+        <div className="w-2 bg-red-600 h-full" />
+        <div className="p-4 py-2 bg-neutral-50 group-hover:bg-neutral-100 w-full">
+          <p className="text-neutral-600">{title}</p>
+          <h5 className="text-lg font-medium">{content}</h5>
+        </div>
+      </div>
+    </div>
+  );
+}
+
+export function CardBadge({
+  img,
+  alt = "",
+  txt,
+}: {
+  img: string;
+  alt?: string;
+  txt?: string;
+}) {
+  console.log(img);
+  return (
+    <div className="hover:bg-neutral-50 flex flex-col items-center justify-between border rounded-md overflow-hidden">
+      <div className="p-4 h-full flex justify-center items-center">
+        <Image
+          src={img}
+          alt={alt}
+          width={250}
+          height={250}
+          className="w-20 object-contain"
+        />
+      </div>
+      {txt && (
+        <span className="w-full text-white bg-red-500 text-center font-medium text-sm">
+          {txt}
+        </span>
+      )}
+    </div>
+  );
+}
