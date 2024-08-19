@@ -4,7 +4,7 @@ import { Footer } from "./components/footer";
 import { Hero } from "./components/hero";
 import { Hosts } from "./components/host";
 import { QUA } from "./components/QUA";
-import { Speakers } from "./components/speakers";
+import { DarkSection } from "./components/dark-section";
 import { SponsorsAndOrganizers } from "./components/SponsorsAndOrganizers";
 
 export default function Home() {
@@ -16,7 +16,7 @@ export default function Home() {
       <Hosts />
       <CodeOfConduct />
       <SponsorsAndOrganizers />
-      <Speakers />
+      <DarkSection />
       <Footer />
     </>
   );

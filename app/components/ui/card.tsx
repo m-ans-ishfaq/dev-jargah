@@ -1,14 +1,16 @@
+import { cn } from "@/app/utils/cn";
 import Image from "next/image";
-import { twMerge as cn } from "tailwind-merge";
 
 export function CardClassic({
   title,
   content,
+  containerClassname = "",
   titleClassname = "",
   contentClassname = "",
 }: {
   title: string;
   content: string;
+  containerClassname?: string;
   titleClassname?: string;
   contentClassname?: string;
 }) {
@@ -16,7 +18,12 @@ export function CardClassic({
     <div className="h-full flex flex-col gap-4 group cursor-pointer">
       <div className="h-full text-start flex">
         <div className="w-2 bg-red-600 h-full" />
-        <div className="p-4 py-2 bg-neutral-50 group-hover:bg-neutral-100 w-full">
+        <div
+          className={cn(
+            "p-4 py-2 bg-neutral-50 group-hover:bg-neutral-100 w-full",
+            containerClassname
+          )}
+        >
           <p className={cn("text-neutral-600", titleClassname)}>{title}</p>
           <h5 className={cn("text-lg font-medium", contentClassname)}>
             {content}
@@ -36,7 +43,6 @@ export function CardBadge({
   alt?: string;
   txt?: string;
 }) {
-  console.log(img);
   return (
     <div className="hover:bg-neutral-50 flex flex-col items-center justify-between border rounded-md overflow-hidden">
       <div className="p-4 h-full flex justify-center items-center">

@@ -16,6 +16,7 @@ export function CodeOfConduct() {
           <CardClassic
             key={i}
             {...{ title, content: description }}
+            containerClassname="py-4"
             titleClassname="text-black font-bold mb-1"
             contentClassname="text-base"
           />
