@@ -18,10 +18,10 @@ export function Agenda() {
   return (
     <section className="my-12 px-4 flex flex-col gap-8 text-center justify-center items-center">
       <div>
-        <h2 className="text-2xl font-bold">Event Agenda</h2>
+        <h2 className="text-2xl font-bold mb-2">Event Agenda</h2>
         <p>
-          Discover the exciting lineup in our Event Agenda, packed with sessions,
-          talks, and activities for Dev جرگہ.
+          Discover the exciting lineup in our Event Agenda, packed with
+          sessions, talks, and activities for Dev جرگہ.
         </p>
       </div>
       <div className="w-full container grid gap-6 grid-cols-1 sm:grid-cols-2 lg:grid-cols-4">

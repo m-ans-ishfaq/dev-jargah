@@ -1,4 +1,5 @@
 import { Agenda } from "./components/agenda";
+import { CodeOfConduct } from "./components/code-of-conduct";
 import { Footer } from "./components/footer";
 import { Hero } from "./components/hero";
 import { Hosts } from "./components/Hosts";
@@ -8,16 +9,16 @@ import { SponsorsAndOrganizers } from "./components/SponsorsAndOrganizers";
 import { Timer } from "./components/Timer";
 
 export default function Home() {
-  
   return (
     <>
       <Hero />
       <QUA />
       <Agenda />
       <Hosts />
+      <CodeOfConduct />
       <SponsorsAndOrganizers />
       <Speakers />
-      <Footer/>
+      <Footer />
     </>
   );
 }

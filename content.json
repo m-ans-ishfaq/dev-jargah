@@ -1,157 +1,146 @@
 {
-        
-        "eventDate": "12 October 2024",
-    "eventLocation": "Quaid i Azam University Islamabad",
-    "title": "Embracing Innovation, Collaboration and Elevation",
-    "description": "Join us at Dev جرگہ Pakistan’s Tech Event for an exciting day of innovation, knowledge exchange, and community spirit in Islamabad. Dive into the latest tech trends, interact with industry leaders through insightful discussions, and network with fellow tech enthusiasts shaping the future.",
-    "aboutUs": {
-        "title": "About Dev جرگہ",
-        "description": "We are a dynamic platform that empowers students and local tech enthusiasts to thrive in their respective fields. Join us to explore cutting-edge technology, gain insights from industry leaders, and collaborate on innovative solutions for local businesses and communities.",
-        
-        
-        "details": [
-            {
-                "label": "Speakers",
-                "value": "15+"
-            },
-            {
-                "label": "Attendees",
-                "value": "400+"
-            },
-            {
-                "label": "Venue",
-                "value": "QUA"
-            },
-            {
-                "label": "Location",
-                "value": "Islamabad"
-            }
-        ]
+  "eventDate": "12 October 2024",
+  "eventLocation": "Quaid i Azam University Islamabad",
+  "title": "Embracing Innovation, Collaboration and Elevation",
+  "description": "Join us at Dev جرگہ Pakistan’s Tech Event for an exciting day of innovation, knowledge exchange, and community spirit in Islamabad. Dive into the latest tech trends, interact with industry leaders through insightful discussions, and network with fellow tech enthusiasts shaping the future.",
+  "aboutUs": {
+    "title": "About Dev جرگہ",
+    "description": "We are a dynamic platform that empowers students and local tech enthusiasts to thrive in their respective fields. Join us to explore cutting-edge technology, gain insights from industry leaders, and collaborate on innovative solutions for local businesses and communities.",
+
+    "details": [
+      {
+        "label": "Speakers",
+        "value": "15+"
+      },
+      {
+        "label": "Attendees",
+        "value": "400+"
+      },
+      {
+        "label": "Venue",
+        "value": "QUA"
+      },
+      {
+        "label": "Location",
+        "value": "Islamabad"
+      }
+    ]
+  },
+  "eventAgendas": [
+    {
+      "time": "10:00 AM - 03:00 PM",
+      "agenda": "Will Be Shared Soon"
+    }
+  ],
+  "hosts": [
+    {
+      "name": "Muhammad Faizan",
+      "role": "Founder",
+      "avatar": "Faizan.jpeg"
     },
-    "eventAgendas": [
-        {
-            "time": "10:00 AM - 03:00 PM",
-            "agenda": "Will Be Shared Soon"
-        }
-    ],
-    "hosts": [
-            {
-                "name": "Muhammad Faizan",
-                "role": "Founder",
-                "avatar": "Faizan.jpeg"
-            },
-            {
-                "name": "Ali Mumtaz",
-                "role": "Co-Founder",
-                "avatar": "Ali.jpeg"
-            },
-            {
-                "name": "CH. Hanzaila",
-                "role": "Advisor",
-                "avatar": "Hanzala.jpeg"
-            },
-            {
-                "name": "Muhammad Anas",
-                "role": "Dev Lead",
-                "avatar": "Anas.jpeg"
-            },
-            {
-                "name": "Waleed Sarfraz",
-                "role": "Design Lead",
-                "avatar": "Waleed.jpeg"
-            },
-            {
-                "name": "Khadija Saeed",
-                "role": "Content Lead",
-                "avatar": "khadija.png"
-            },
-            {
-                "name": "Anza Tamveel",
-                "role": "Marketing Lead",
-                "avatar": "Anza.jpeg"
-            },
-            {
-                "name": "Abdullah Bin Aftab",
-                "role": "Postman Student Leader",
-                "avatar": "Abdullah.jpeg"
-            },
-            {
-                "name": "Zaineb Idress",
-                "role": "Logistic Lead",
-                "avatar": "zaineb.jpeg"
-            }
-        ],
-    "speakers": [
-        {
-            "avatar": "dum.jpg",
-            "name": "Will be shared shortly"
-        }
-        
-    ],
-    "partners": [
-        {
-            "image": "github.png",
-            "label": "Github",
-            "partnership": "Sponsor"
-        },
-        {
-            "image": "notion.png",
-            "label": "Notion",
-            "partnership": "Sponsor"
-        },
-        {
-            "image": "woix.jpeg",
-            "label": "Woix",
-            "partnership": "Sponsor"
-        },
-        {
-            "image": "hp.png",
-            "label": "Hassan Photography",
-            "partnership": "Industry Partner"
-        }
-    ],
-    "mentors": [
-        {
-            "avatar": "pak.jpeg",
-            "name": "MLSA NUML"
-        },
-        {
-            "avatar": "logo.png",
-            "name": "MLSA PUNJAB"
-        },
-        {
-            "avatar": "qua.png",
-            "name": "MLSA QUA"
-        }
-    ],
-    "codeOfConduct": [
-        {
-            "title": "Respect and Inclusivity",
-            "description": "Treat all participants with respect, regardless of their race, gender, sexual orientation, disability, age, religion, or any other characteristic."
-        },
-        {
-            "title": "Open to new Ideas",
-            "description": "Create an inclusive and welcoming environment where everyone feels safe to participate and share their ideas."
-        },
-        {
-            "title": "Collaboration and Sharing",
-            "description": "Foster a collaborative environment by encouraging the exchange of ideas, knowledge, and experiences. Respect intellectual property rights and give proper credit for any content, ideas, or materials used or referenced."
-        },
-        {
-            "title": "Pleasent Gathering Environment",
-            "description": "Harassment, including but not limited to offensive comments, verbal or written abuse, intimidation, or any form of unwelcome attention, is not tolerated. Be mindful of your words and actions, and remember that what may be acceptable to you may be offensive to others."
-        },
-        {
-            "title": "Professional Conduct",
-            "description": "Engage in professional and constructive discussions and debates. Avoid personal attacks, insults, or derogatory language. Use appropriate language and content when presenting or participating in sessions."
-        },
-        {
-            "title": "Acknowledging time and effort",
-            "description": "We're respectful of the volunteer efforts that permeate the developer community. We're thoughtful when addressing the efforts of others, keeping in mind that oftentimes the labour was completed simply for the good of the community."
-        }
-    ],
-    "registerCard": {
+    {
+      "name": "Ali Mumtaz",
+      "role": "Co-Founder",
+      "avatar": "Ali.jpeg"
+    },
+    {
+      "name": "CH. Hanzaila",
+      "role": "Advisor",
+      "avatar": "Hanzala.jpeg"
+    },
+    {
+      "name": "Muhammad Anas",
+      "role": "Dev Lead",
+      "avatar": "Anas.jpeg"
+    },
+    {
+      "name": "Waleed Sarfraz",
+      "role": "Design Lead",
+      "avatar": "Waleed.jpeg"
+    },
+    {
+      "name": "Khadija Saeed",
+      "role": "Content Lead",
+      "avatar": "khadija.png"
+    },
+    {
+      "name": "Anza Tamveel",
+      "role": "Marketing Lead",
+      "avatar": "Anza.jpeg"
+    },
+    {
+      "name": "Abdullah Bin Aftab",
+      "role": "Postman Student Leader",
+      "avatar": "Abdullah.jpeg"
+    },
+    {
+      "name": "Zaineb Idress",
+      "role": "Logistic Lead",
+      "avatar": "zaineb.jpeg"
+    }
+  ],
+  "speakers": [
+    {
+      "avatar": "dum.jpg",
+      "name": "Will be shared shortly"
+    }
+  ],
+  "partners": [
+    {
+      "image": "github.png",
+      "label": "Github",
+      "partnership": "Sponsor"
+    },
+    {
+      "image": "notion.png",
+      "label": "Notion",
+      "partnership": "Sponsor"
+    },
+    {
+      "image": "woix.jpeg",
+      "label": "Woix",
+      "partnership": "Sponsor"
+    },
+    {
+      "image": "hp.png",
+      "label": "Hassan Photography",
+      "partnership": "Industry Partner"
+    }
+  ],
+  "mentors": [
+    {
+      "avatar": "pak.jpeg",
+      "name": "MLSA NUML"
+    },
+    {
+      "avatar": "logo.png",
+      "name": "MLSA PUNJAB"
+    },
+    {
+      "avatar": "qua.png",
+      "name": "MLSA QUA"
+    }
+  ],
+  "codeOfConduct": [
+    {
+      "title": "Mutual Respect and Diversity",
+      "description": "Value and honor every participant by acknowledging their diverse backgrounds, including race, gender identity, disability, age, religion, and other individual characteristics."
+    },
+    {
+      "title": "Encouraging Inclusive Dialogue",
+      "description": "Foster a welcoming atmosphere where everyone feels empowered to contribute, knowing their ideas and voices will be respected and valued."
+    },
+    {
+      "title": "Promoting Collaboration and Knowledge Sharing",
+      "description": "Support a collaborative spirit by actively sharing insights, ideas, and experiences, while giving credit to others' work and respecting intellectual property rights."
+    },
+    {
+      "title": "Ensuring a Positive Event Experience",
+      "description": "Uphold a harassment-free environment by avoiding offensive comments, threats, or any form of unwelcome behavior. Be considerate of others' boundaries and perspectives."
+    }
+  ],
+  "registerCard": {
     "title": "Join Us for an Unforgettable Tech Enthusiast Gathering",
     "description": "Discover new horizons in technology and become part of a unique and enriching experience."
-    }
+  }
 }
