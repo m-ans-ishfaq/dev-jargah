@@ -1,4 +1,5 @@
 import { content } from "../assets/data";
+import { CardClassic } from "./ui/card";
 
 export function CodeOfConduct() {
   return (
@@ -12,18 +13,12 @@ export function CodeOfConduct() {
       </div>
       <div className="w-full container grid gap-6 grid-cols-1 grid-rows-4 sm:grid-cols-2 sm:grid-rows-2 xl:grid-rows-1 xl:grid-cols-4">
         {content.codeOfConduct.map(({ title, description }, i) => (
-          <div
+          <CardClassic
             key={i}
-            className="h-full flex flex-col gap-4 group cursor-pointer"
-          >
-            <div className="text-start flex h-full">
-              <div className="w-2 bg-red-600 h-full" />
-              <div className="p-4 py-2 bg-neutral-50 group-hover:bg-neutral-100 w-full">
-                <p className="font-bold text-lg mb-2">{title}</p>
-                <h5 className="text-lg font-medium">{description}</h5>
-              </div>
-            </div>
-          </div>
+            {...{ title, content: description }}
+            titleClassname="text-black font-bold mb-1"
+            contentClassname="text-base"
+          />
         ))}
       </div>
     </section>

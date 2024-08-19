@@ -1,19 +1,26 @@
 import Image from "next/image";
+import { twMerge as cn } from "tailwind-merge";
 
 export function CardClassic({
   title,
   content,
+  titleClassname = "",
+  contentClassname = "",
 }: {
   title: string;
   content: string;
+  titleClassname?: string;
+  contentClassname?: string;
 }) {
   return (
-    <div className="flex flex-col gap-4 group cursor-pointer">
-      <div className="text-start flex">
+    <div className="h-full flex flex-col gap-4 group cursor-pointer">
+      <div className="h-full text-start flex">
         <div className="w-2 bg-red-600 h-full" />
         <div className="p-4 py-2 bg-neutral-50 group-hover:bg-neutral-100 w-full">
-          <p className="text-neutral-600">{title}</p>
-          <h5 className="text-lg font-medium">{content}</h5>
+          <p className={cn("text-neutral-600", titleClassname)}>{title}</p>
+          <h5 className={cn("text-lg font-medium", contentClassname)}>
+            {content}
+          </h5>
         </div>
       </div>
     </div>
