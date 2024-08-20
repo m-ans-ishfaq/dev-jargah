@@ -36,47 +36,56 @@
     {
       "name": "Muhammad Faizan",
       "role": "Founder",
-      "avatar": "Faizan.jpeg"
+      "avatar": "Faizan.jpeg",
+      "tier": "Tier 1"
     },
     {
       "name": "Ali Mumtaz",
       "role": "Co-Founder",
-      "avatar": "Ali.jpeg"
+      "avatar": "Ali.jpeg",
+      "tier": "Tier 1"
     },
     {
       "name": "CH. Hanzaila",
       "role": "Advisor",
-      "avatar": "Hanzala.jpeg"
+      "avatar": "Hanzala.jpeg",
+      "tier": "Tier 2"
     },
     {
       "name": "Muhammad Anas",
       "role": "Dev Lead",
-      "avatar": "Anas.jpeg"
+      "avatar": "Anas.jpeg",
+      "tier": "Tier 2"
     },
     {
       "name": "Waleed Sarfraz",
       "role": "Design Lead",
-      "avatar": "Waleed.jpeg"
+      "avatar": "Waleed.jpeg",
+      "tier": "Tier 3"
     },
     {
       "name": "Khadija Saeed",
       "role": "Content Lead",
-      "avatar": "khadija.png"
+      "avatar": "khadija.png",
+      "tier": "Tier 3"
     },
     {
       "name": "Anza Tamveel",
       "role": "Marketing Lead",
-      "avatar": "Anza.jpeg"
+      "avatar": "Anza.jpeg",
+      "tier": "Tier 3"
     },
     {
       "name": "Abdullah Bin Aftab",
       "role": "Postman Student Leader",
-      "avatar": "Abdullah.jpeg"
+      "avatar": "Abdullah.jpeg",
+      "tier": "Tier 3"
     },
     {
       "name": "Zaineb Idress",
       "role": "Logistic Lead",
-      "avatar": "zaineb.jpeg"
+      "avatar": "zaineb.jpeg",
+      "tier": "Tier 3"
     }
   ],
   "speakers": [
@@ -85,28 +94,29 @@
       "name": "Will be shared shortly"
     }
   ],
-  "partners": [
+  "sponsors": [
     {
       "image": "github.png",
       "label": "Github",
-      "partnership": "Sponsor"
+      "partnership": "Supreme"
     },
     {
       "image": "notion.png",
       "label": "Notion",
-      "partnership": "Sponsor"
+      "partnership": "Ultimate"
     },
     {
       "image": "woix.jpeg",
       "label": "Woix",
-      "partnership": "Sponsor"
+      "partnership": "Epic"
     },
     {
       "image": "hp.png",
       "label": "Hassan Photography",
-      "partnership": "Industry Partner"
+      "partnership": "Silver"
     }
   ],
+  "organizers": [{ "image": "mlsa.png" }, { "image": "mlsa_qua.png" }],
   "mentors": [
     {
       "avatar": "pak.jpeg",
@@ -137,6 +147,36 @@
     {
       "title": "Positive Event Experience",
       "description": "Uphold a harassment-free environment by avoiding offensive comments, threats, or any form of unwelcome behavior. Be considerate of others' boundaries and perspectives."
+    }
+  ],
+  "mediaPartners": [
+    {
+      "image": "dum.jpg",
+      "label": "Media Partner 1"
+    },
+    {
+      "image": "dum.jpg",
+      "label": "Media Partner 2"
+    },
+    {
+      "image": "dum.jpg",
+      "label": "Media Partner 3"
+    }
+  ],
+  "microsponsors": [
+    {
+      "name": "A",
+      "avatar": "dum.jpg"
+    },
+    {
+      "name": "B",
+      "avatar": "dum.jpg"
+    }
+  ],
+  "communityPartners": [
+    {
+      "image": "dum.jpg",
+      "label": "Partner 1"
     }
   ],
   "registerCard": {

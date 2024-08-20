@@ -11,7 +11,7 @@ export function SectionWrapper({
   children: ReactNode;
 }) {
   return (
-    <section className="my-12 px-4 flex flex-col gap-8 text-center justify-center items-center">
+    <section className="my-16 px-4 flex flex-col gap-8 text-center justify-center items-center">
       <div>
         <h2 className="mb-2 text-2xl font-bold">{title}</h2>
         {description && <p>{description}</p>}
@@ -35,7 +35,7 @@ export function DarkSectionWrapper({
   return (
     <div
       className={cn(
-        "px-4 relative z-[5] flex flex-col text-center gap-8 items-center",
+        "my-16 px-4 relative z-[5] flex flex-col text-center gap-8 items-center",
         containerClassname
       )}
     >

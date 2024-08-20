@@ -45,17 +45,17 @@ export function CardBadge({
 }) {
   return (
     <div className="hover:bg-neutral-50 flex flex-col items-center justify-between border rounded-md overflow-hidden">
-      <div className="p-4 h-full flex justify-center items-center">
+      <div className="p-8 w-full h-full flex justify-center items-center">
         <Image
           src={img}
           alt={alt}
-          width={250}
-          height={250}
-          className="w-20 object-contain"
+          width={500}
+          height={500}
+          className="w-full object-contain"
         />
       </div>
       {txt && (
-        <span className="w-full text-white bg-red-500 text-center font-medium text-sm">
+        <span className="w-full text-white bg-red-500 text-center font-medium p-2">
           {txt}
         </span>
       )}

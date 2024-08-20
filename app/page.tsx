@@ -4,8 +4,12 @@ import { Footer } from "./components/footer";
 import { Hero } from "./components/hero";
 import { Hosts } from "./components/host";
 import { QUA } from "./components/QUA";
-import { DarkSection } from "./components/dark-section";
-import { SponsorsAndOrganizers } from "./components/SponsorsAndOrganizers";
+import { CommunityPartners } from "./components/community-partners";
+import { Speakers } from "./components/speakers";
+import { DarkSection } from "./components/ui/section";
+import { MediaPartners } from "./components/media-partners";
+import { Sponsors } from "./components/sponsors";
+import { Organizers } from "./components/organizers";
 
 export default function Home() {
   return (
@@ -14,9 +18,14 @@ export default function Home() {
       <QUA />
       <Agenda />
       <Hosts />
+      <Sponsors />
+      <Organizers />
+      <Speakers />
       <CodeOfConduct />
-      <SponsorsAndOrganizers />
-      <DarkSection />
+      <DarkSection>
+        <MediaPartners />
+        <CommunityPartners />
+      </DarkSection>
       <Footer />
     </>
   );
