@@ -23,12 +23,14 @@ const TierSection = ({
     </div>
     <div className="grid gap-6 grid-cols-1 sm:grid-cols-2 lg:grid-cols-4">
       {hosts.map(({ name, role, avatar }, i) => (
-        <AvatarClassic
-          key={i}
-          name={name}
-          role={role}
-          img={`/hosts/${avatar}`}
-        />
+        <div className="flex justify-center">
+          <AvatarClassic
+            key={i}
+            name={name}
+            role={role}
+            img={`/hosts/${avatar}`}
+          />
+        </div>
       ))}
     </div>
   </div>
