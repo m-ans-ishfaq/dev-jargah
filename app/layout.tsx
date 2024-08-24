@@ -36,6 +36,10 @@ export default function RootLayout({
           rel="icon"
           href="https://www.devjirga.live/_next/static/media/logo.735f2f8d.webp"
         />
+        <meta
+          name="google-site-verification"
+          content="jtUocS8z5CaqrKtnC3FCZ1l7ZmQ9usqk19iN2CDeNjU"
+        />
       </head>
       <body className={inter.className}>{children}</body>
     </html>
