@@ -76,7 +76,7 @@ export function Timer() {
     const [targetDate, setTargetDate] = useState<Date|undefined>(undefined);
 
     useEffect(() => {
-        let tgDate = new Date('2024-10-01T05:00:00');
+        let tgDate = new Date('2024-10-12T09:00:00');
         tgDate.setUTCHours(0, 0, 0, 0);
         tgDate.setMinutes(tgDate.getMinutes() - tgDate.getTimezoneOffset() + 4 * 60);
 

@@ -36,13 +36,6 @@ export function Header({ transparent = false }: { transparent?: boolean})
                 </div>
                 {/* Left Side */}
                 <div className="flex flex-col gap-1 items-end justify-end">
-                    <nav className="flex gap-4">
-                        {HEADER_LINKS.map(({href, label}, i) => (
-                            <Link className="rounded-md sm:hover:btn sm:py-1 sm:px-4" key={i} {...{ href }}>
-                                {label}
-                            </Link>
-                        ))}
-                    </nav>
                     <p className="hidden sm:flex pr-4">
                         {content.eventDate} ✦  {content.eventLocation}
                     </p>

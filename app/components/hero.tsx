@@ -46,7 +46,7 @@ export function Hero() {
                                     <div className="flex flex-wrap gap-6">
                                         <div className="flex gap-2 items-center">
                                             <FaRegClock />
-                                            <span>{content.eventDate} 10:00 AM</span>
+                                            <span>{content.eventDate} 09:00 AM</span>
                                         </div>
                                         <div className="flex gap-2 items-center">
                                             <FaLocationArrow />

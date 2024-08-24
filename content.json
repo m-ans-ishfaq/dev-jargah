@@ -18,7 +18,7 @@
       },
       {
         "label": "Venue",
-        "value": "QUA"
+        "value": "QAU"
       },
       {
         "label": "Location",
@@ -28,7 +28,7 @@
   },
   "eventAgendas": [
     {
-      "time": "10:00 AM - 03:00 PM",
+      "time": "09:00 AM - 04:00 PM",
       "agenda": "Will Be Shared Soon"
     }
   ],
@@ -44,19 +44,46 @@
       "avatar": "Ali.jpeg"
     },
     {
+      "name": "Mahrukh Khan",
+      "role": "Operational Lead",
+      "avatar": "mahrukh.png"
+    },
+    {
       "name": "CH. Hanzaila",
-      "role": "Advisor",
+      "role": "Mentor",
       "avatar": "Hanzala.jpeg"
     },
     {
       "name": "Muhammad Anas",
-      "role": "Dev Lead",
+      "role": "Tech Lead",
       "avatar": "Anas.jpeg"
     },
     {
-      "name": "Waleed Sarfraz",
-      "role": "Design Lead",
-      "avatar": "Waleed.jpeg"
+      "name": "Abdul Rehman Riaz",
+      "role": "Public Relations Lead",
+      "avatar": "ARR.jpg"
+    },
+    
+    {
+      "name": "Abdullah Bin Aftab",
+      "role": "Sponsorship Coordinator",
+      "avatar": "Abdullah.jpeg"
+    },
+    {
+      "name": "Ahmad Hassan",
+      "role": "Media Relations Lead",
+      "avatar": "Ahmed.jpg"
+    },
+    
+    {
+      "name": "Marwa Shahid",
+      "role": "Management Lead",
+      "avatar": "marwa.jpg"
+    },
+    {
+      "name": "Sajjad Ahmad",
+      "role": "Creative Lead",
+      "avatar": "SJD.jpg"
     },
     {
       "name": "Khadija Saeed",
@@ -69,14 +96,14 @@
       "avatar": "Anza.jpeg"
     },
     {
-      "name": "Abdullah Bin Aftab",
-      "role": "Postman Student Leader",
-      "avatar": "Abdullah.jpeg"
+      "name": "Waleed Sarfraz",
+      "role": "Graphics Lead",
+      "avatar": "Waleed.jpeg"
     },
     {
-      "name": "Zaineb Idress",
-      "role": "Logistic Lead",
-      "avatar": "zaineb.jpeg"
+      "name": "Afeera Fatima",
+      "role": "Social Media Manager",
+      "avatar": "afeera.jpg"
     }
   ],
   "speakers": [

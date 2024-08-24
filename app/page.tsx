@@ -15,7 +15,6 @@ export default function Home() {
       <Agenda />
       <Hosts />
       <CodeOfConduct />
-      <SponsorsAndOrganizers />
       <DarkSection />
       <Footer />
     </>
