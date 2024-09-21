@@ -29,7 +29,7 @@ export default function Page() {
           <div className="Toastify"></div>
         </div>
       </div>
-      <div className="inset-0 w-full flex-1 lg:flex lg:justify-center lg:items-center">
+      <div className="inset-0 w-full flex-1 lg:flex lg:justify-center lg:items-center ">
         <Image
           alt=""
           loading="lazy"

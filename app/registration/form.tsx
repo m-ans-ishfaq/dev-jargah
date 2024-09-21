@@ -6,6 +6,7 @@ import { toast, ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import { db } from "@/app/config/firebase";
 import { collection, addDoc } from "firebase/firestore";
+import axios from "axios";
 
 const validationSchema = Yup.object({
   name: Yup.string().required("Name is required"),
@@ -37,6 +38,10 @@ export function RegistrationForm() {
       try {
         console.log(values);
         const docRef = await addDoc(collection(db, "registrations"), values);
+        await axios.post("/api/send-email", {
+          name: values.name,
+          email: values.email,
+        });
         console.log("Document written with ID: ", docRef.id);
         toast.success("Form submitted successfully");
         resetForm();
