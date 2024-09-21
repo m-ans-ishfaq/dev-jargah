@@ -1,7 +1,7 @@
 import { NextApiRequest } from "next";
 import { NextRequest, NextResponse } from "next/server";
 import nodemailer from "nodemailer";
-
+//push
 export async function POST(req: NextRequest) {
   const { name, email } = (await req.json()) as any;
   let transporter = nodemailer.createTransport({
