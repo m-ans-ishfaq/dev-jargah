@@ -1,9 +1,9 @@
-import { NextApiRequest } from "next";
 import { NextRequest, NextResponse } from "next/server";
 import nodemailer from "nodemailer";
-//push
+
 export async function POST(req: NextRequest) {
   const { name, email } = (await req.json()) as any;
+
   let transporter = nodemailer.createTransport({
     host: "smtp.zoho.com",
     port: 465,
@@ -18,25 +18,43 @@ export async function POST(req: NextRequest) {
     await transporter.sendMail({
       from: `"Dev Jirga" <info@devjirga.live>`,
       to: email,
-      subject: "Thank You for Registering for the Dev Jirga Event!",
-      text: `Hello ${name},
+      subject: "DevJirga 2K24 - Registration Pending Confirmation",
+      text: `Dear ${name},
 
-Thank you for registering for the Dev Jirga event!
+Thank you for registering for DevJirga 2K24! We have received your registration, and we're currently processing it. You'll soon receive a confirmation email once your registration is finalized.
 
-We are excited to have you join us for an insightful and inspiring session.
+Event Details:
+🗓 Date: 12 October 2024
+🕐 Time: 10 AM - 4 PM
+📍 Venue: Earth Science Auditorium, Quaid-i-Azam University, Islamabad
 
-If you have any questions or need further information, feel free to contact us.
+In the meantime, feel free to follow us on social media for the latest updates and announcements.
 
-Best Regards,
-The Dev Jirga Team
-    `,
+Instagram: https://www.instagram.com/devjirga?igsh=MTZldXEwNTgyZGRmNg==
+LinkedIn: https://www.linkedin.com/company/devjirga/
+
+We look forward to welcoming you to an exciting day at DevJirga 2K24!
+
+Warm regards,
+DevJirga Team
+      `,
       html: `
-<h3>Hello ${name},</h3>
-<p>Thank you for registering for the <b>Dev Jirga event</b>!</p>
-<p>We are excited to have you join us for an insightful and inspiring session.</p>
-<p>If you have any questions or need further information, feel free to contact us.</p>
-<p>Best Regards,</p>
-<p><strong>The Dev Jirga Team</strong></p>
+        <h3>Dear ${name},</h3>
+        <p>Thank you for registering for <strong>DevJirga 2K24</strong>! We have received your registration, and we're currently processing it. You'll soon receive a confirmation email once your registration is finalized.</p>
+        <p><strong>Event Details:</strong></p>
+        <ul>
+          <li>🗓 <strong>Date:</strong> 12 October 2024</li>
+          <li>🕐 <strong>Time:</strong> 10 AM - 4 PM</li>
+          <li>📍 <strong>Venue:</strong> Earth Science Auditorium, Quaid-i-Azam University, Islamabad</li>
+        </ul>
+        <p>In the meantime, feel free to follow us on social media for the latest updates and announcements:</p>
+        <ul>
+          <li><a href="https://www.instagram.com/devjirga?igsh=MTZldXEwNTgyZGRmNg==">Instagram</a></li>
+          <li><a href="https://www.linkedin.com/company/devjirga/">LinkedIn</a></li>
+        </ul>
+        <p>We look forward to welcoming you to an exciting day at DevJirga 2K24!</p>
+        <p>Warm regards,</p>
+        <p><strong>DevJirga Team</strong></p>
       `,
     });
 
