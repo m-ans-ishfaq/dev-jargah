@@ -1,5 +1,5 @@
 import Image from "next/image";
-import BgImage from "@/public/dev-jirga-card.jpg";
+import BgImage from "@/public/dev-jirga-card.png";
 import { RegistrationForm } from "./form";
 import { Metadata } from "next";
 
